@@ -494,16 +494,16 @@ define(["esri/map",
 
 			var urlParams = Helper.getUrlParams();
 			var appColors = WebApplicationData.getColors();
-			var logoURL = WebApplicationData.getLogoURL() || APPCFG.HEADER_LOGO_URL;
-			var logoTarget = (logoURL == APPCFG.HEADER_LOGO_URL) ? APPCFG.HEADER_LOGO_TARGET : WebApplicationData.getLogoTarget();
+			var logoURLs = WebApplicationData.getLogoURLs() || APPCFG.HEADER_LOGO_URLS;
+			var logoTargets = (logoURLs == APPCFG.HEADER_LOGO_URLS) ? APPCFG.HEADER_LOGO_TARGETS : WebApplicationData.getLogoTargets();
 			
 			app.header.init(
 				! app.isInBuilderMode && (APPCFG.EMBED || urlParams.embed || urlParams.embed === ''),
 				title,
 				subtitle,
 				appColors[0],
-				logoURL,
-				logoTarget,
+				logoURLs,
+				logoTargets,
 				! app.isInBuilderMode && (
 					(! isProd() && Helper.getAppID(isProd()))
 					|| isProd() && app.data.userIsAppOwner()),

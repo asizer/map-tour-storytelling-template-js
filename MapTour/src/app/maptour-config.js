@@ -8,8 +8,16 @@ APPCFG = {
 	EMBED: false,
 	
 	// Header Logo
-	HEADER_LOGO_URL: "resources/icons/esri-logo.png",
-	HEADER_LOGO_TARGET: "http://www.esri.com",
+	HEADER_LOGO_URLS: [
+		"http://www.visitpalmsprings.com/stream/186126?quality=100",
+		"http://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/440px-Wikipedia-logo-v2.svg.png",
+		"resources/icons/esri-logo.png"
+	],
+	HEADER_LOGO_TARGETS: [
+		"http://www.ci.palm-springs.ca.us/index.aspx?page=5",
+		"http://en.wikipedia.org/wiki/Palm_Springs,_California",
+		"http://www.esri.com"
+	],
 	// Header top right link
 	HEADER_LINK_TEXT: "A story map",
 	HEADER_LINK_URL: "http://storymaps.arcgis.com",

@@ -42,7 +42,7 @@ define(["esri/arcgis/Portal",
 		var _settingsPopup = new SettingsPopup(
 				$('#settingsPopup'), 
 				APPCFG.COLOR_SCHEMES, 
-				APPCFG.HEADER_LOGO_URL
+				APPCFG.HEADER_LOGO_URLS[0]
 		);
 
 		function init(core, builderView)

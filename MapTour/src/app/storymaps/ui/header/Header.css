@@ -91,6 +91,7 @@
 	height: 60px;
 	border:none;
 	outline:none;
+	display: table;
 }
 
 /* Firefox don't like this - vertical align on top instead */
@@ -108,13 +109,14 @@
 }
 
 .rightArea .logo img {
-	position: absolute;
-	top: 50%;
-	bottom: 50%;
-	right: 0px;
 	max-width: 250px;
 	max-height: 50px;
-	margin: auto 0;
+	margin-left: 10px;
+}
+
+.rightArea .logo a {
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .switchBuilder {

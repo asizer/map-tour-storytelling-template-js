@@ -151,21 +151,21 @@ define(["storymaps/maptour/core/FieldConfig", "dojo/_base/lang"],
 			{
 				return _data.values.colors ? _data.values.colors.split(';') : APPCFG.COLORS;
 			},
-			setLogoURL: function(url)
+			setLogoURLs: function(urls)
 			{
-				_data.values.logoURL = url;
+				_data.values.logoURLs = urls;
 			},
-			getLogoURL: function()
+			getLogoURLs: function()
 			{
-				return _data.values.logoURL;
+				return _data.values.logoURLs;
 			},
-			setLogoTarget: function(url)
+			setLogoTargets: function(urls)
 			{
-				_data.values.logoTarget = url;
+				_data.values.logoTargets = urls;
 			},
-			getLogoTarget: function()
+			getLogoTargets: function()
 			{
-				return _data.values.logoTarget;
+				return _data.values.logoTargets;
 			},
 			setZoomLevel: function(level)
 			{

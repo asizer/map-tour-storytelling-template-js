@@ -26,8 +26,9 @@ define([],
 					&& APPCFG.PIN_CFG[APPCFG.PIN_DEFAULT_CFG]
 					&& APPCFG.ICON_CFG 
 					&& APPCFG.EMBED !== undefined
-					&& APPCFG.HEADER_LOGO_URL !== undefined 
-					&& APPCFG.HEADER_LOGO_TARGET !== undefined
+					&& APPCFG.HEADER_LOGO_URLS !== undefined 
+					&& APPCFG.HEADER_LOGO_TARGETS !== undefined
+					&& APPCFG.HEADER_LOGO_URLS.length === APPCFG.HEADER_LOGO_TARGETS.length
 					&& APPCFG.HEADER_LINK_TEXT !== undefined
 					&& APPCFG.HEADER_LINK_URL !== undefined
 					&& APPCFG.HEADER_SOCIAL  

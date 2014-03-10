@@ -1,12 +1,14 @@
 define(["storymaps/ui/inlineFieldEdit/InlineFieldEdit",
 		"storymaps/utils/Helper",
 		"dojo/has", 
-		"dojo/topic"], 
+		"dojo/topic",
+		"dojo/_base/array"], 
 	function(
 		InlineFieldEdit,
 		Helper, 
 		has, 
-		topic
+		topic,
+		arrayUtil
 	){
 		/**
 		 * Header
@@ -21,10 +23,10 @@ define(["storymaps/ui/inlineFieldEdit/InlineFieldEdit",
 			var _builderButtonHidden = false;
 			var _bitlyStartIndexStatus = '';
 			
-			this.init = function(hideDesktop, title, subtitle, bgColor, logoURL, logoTarget, displaySwitchBuilderButton, topLinkText, topLinkURL, social)
+			this.init = function(hideDesktop, title, subtitle, bgColor, logoURLs, logoTargets, displaySwitchBuilderButton, topLinkText, topLinkURL, social)
 			{
 				this.setColor(bgColor);
-				this.setLogoInfo(logoURL, logoTarget);
+				this.setLogoInfo(logoURLs, logoTargets);
 				
 				if( hideDesktop )
 					$(selector).addClass('hideDesktop');
@@ -108,20 +110,20 @@ define(["storymaps/ui/inlineFieldEdit/InlineFieldEdit",
 				$("#openHeaderMobile").css("background-color", bgColor);
 			};
 	
-			this.setLogoInfo = function(url, target)
+			this.setLogoInfo = function(urls, targets)
 			{
-				if ( ! url || url == "NO_LOGO" ) {
+				if ( !urls || urls == "NO_LOGO" || !urls.length ) {
 					$(selector + ' .logo img').hide();
 				}
 				else {
-					$(selector + ' .logo img').attr("src", url);
-					if (target) {
-						$(selector + ' .logo img').closest("a").css("cursor", "pointer");
-						$(selector + ' .logo img').closest("a").attr("href", target);
-					}
-					else 
-						$(selector + ' .logo img').closest("a").css("cursor", "default");
-					
+					var logoContainer = $(selector + ' .logo');
+					arrayUtil.forEach(urls, function(url, index) {
+						logoContainer.append($('<a/>', {
+							target: '_blank',
+							href: targets[index],
+							html: '<img alt="Logo-' + index + '" class="headerLogoImg" src="' + url + '">'
+						}));
+					});
 					$(selector + ' .logo img').show();
 				}
 			};
