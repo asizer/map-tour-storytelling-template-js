@@ -40,13 +40,15 @@
 				navList: "Elenco",
 				navMap: "Mappa",
 				navInfo: "Supporto",
-				introStartBtn: "Avvia"
+				introStartBtn: "Avvia",
+				navLegend: "Legenda"
 			},
 			desktopHTML: {
 				storymapsText: "Mappa collegata a una storia",
 				builderButton: "Passa a modalità generatore",
 				bitlyTooltip: "Ottieni un collegamento breve all\'applicazione",
-				bitlyStartIndex: "Collegamento alla posizione corrente"
+				bitlyStartIndex: "Collegamento alla posizione corrente",
+				legendText: "Legenda"
 			},
 			builderHTML: {
 				panelHeader: "CONFIGURAZIONE APPLICAZIONE",

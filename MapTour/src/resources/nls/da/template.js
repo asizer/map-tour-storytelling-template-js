@@ -40,13 +40,15 @@
 				navList: "Liste",
 				navMap: "Kort",
 				navInfo: "Medier",
-				introStartBtn: "Start"
+				introStartBtn: "Start",
+				navLegend: "Forklaring"
 			},
 			desktopHTML: {
 				storymapsText: "Et historiekort",
 				builderButton: "Skift til builder-tilstand",
 				bitlyTooltip: "Hent et kortere link til applikationen",
-				bitlyStartIndex: "Link til aktuelt sted"
+				bitlyStartIndex: "Link til aktuelt sted",
+				legendText: "Forklaring"
 			},
 			builderHTML: {
 				panelHeader: "APPLIKATIONSKONFIGURATION",

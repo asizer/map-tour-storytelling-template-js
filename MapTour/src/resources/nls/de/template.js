@@ -40,13 +40,15 @@
 				navList: "Liste",
 				navMap: "Karte",
 				navInfo: "Medien",
-				introStartBtn: "Start"
+				introStartBtn: "Start",
+				navLegend: "Legende"
 			},
 			desktopHTML: {
 				storymapsText: "Eine Story Map",
 				builderButton: "Zum Generator-Modus wechseln",
 				bitlyTooltip: "Kurzlink zur Anwendung abrufen",
-				bitlyStartIndex: "Link zu aktuellem Ort"
+				bitlyStartIndex: "Link zu aktuellem Ort",
+				legendText: "Legende"
 			},
 			builderHTML: {
 				panelHeader: "ANWENDUNGSKONFIGURATION",

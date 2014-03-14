@@ -40,13 +40,15 @@
 				navList: "Lista",
 				navMap: "Mapa",
 				navInfo: "Multimedia",
-				introStartBtn: "Inicio"
+				introStartBtn: "Inicio",
+				navLegend: "Leyenda"
 			},
 			desktopHTML: {
 				storymapsText: "Un mapa de historias",
 				builderButton: "Cambiar a modo de builder",
 				bitlyTooltip: "Consigue un enlace corto a la aplicación",
-				bitlyStartIndex: "Enlazar al lugar actual"
+				bitlyStartIndex: "Enlazar al lugar actual",
+				legendText: "Leyenda"
 			},
 			builderHTML: {
 				panelHeader: "CONFIGURACIÓN DE LA APLICACIÓN",

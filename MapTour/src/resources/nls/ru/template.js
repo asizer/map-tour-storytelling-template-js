@@ -40,13 +40,15 @@
 				navList: "Список",
 				navMap: "Карта",
 				navInfo: "Медиа",
-				introStartBtn: "Начало"
+				introStartBtn: "Начало",
+				navLegend: "Легенда"
 			},
 			desktopHTML: {
 				storymapsText: "Карта истории",
 				builderButton: "Переключиться в режим компоновки",
 				bitlyTooltip: "Получить короткую ссылку на приложение",
-				bitlyStartIndex: "Ссылка на текущее местоположение"
+				bitlyStartIndex: "Ссылка на текущее местоположение",
+				legendText: "Легенда"
 			},
 			builderHTML: {
 				panelHeader: "КОНФИГУРАЦИЯ ПРИЛОЖЕНИЯ",

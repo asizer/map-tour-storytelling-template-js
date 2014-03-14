@@ -40,13 +40,15 @@
 				navList: "Seznam",
 				navMap: "Mapa",
 				navInfo: "Média",
-				introStartBtn: "Spustit"
+				introStartBtn: "Spustit",
+				navLegend: "Legendy"
 			},
 			desktopHTML: {
 				storymapsText: "Mapa s příběhem",
 				builderButton: "Přepnout do režimu tvorby",
 				bitlyTooltip: "Získejte krátký odkaz k aplikaci",
 				bitlyStartIndex: "Odkaz na současné místo"
+				legendText: "Legendy"
 			},
 			builderHTML: {
 				panelHeader: "KONFIGURACE APLIKACE",

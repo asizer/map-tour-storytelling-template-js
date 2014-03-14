@@ -40,13 +40,15 @@
 				navList: "Lista",
 				navMap: "Mapa",
 				navInfo: "Imagem",
-				introStartBtn: "Iniciar"
+				introStartBtn: "Iniciar",
+				navLegend: "Legendas"
 			},
 			desktopHTML: {
 				storymapsText: "Um mapa de história",
 				builderButton: "Mudar para modo de construtor",
 				bitlyTooltip: "Obter uma pequena ligação para a aplicação",
-				bitlyStartIndex: "Ligação para a localização atual"
+				bitlyStartIndex: "Ligação para a localização atual",
+				legendText: "Legendas"
 			},
 			builderHTML: {
 				panelHeader: "CONFIGURAÇÃO DA APLICAÇÃO",

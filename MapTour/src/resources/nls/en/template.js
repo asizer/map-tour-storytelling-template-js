@@ -40,13 +40,15 @@ define(
 				navList: "List",
 				navMap: "Map",
 				navInfo: "Media",
-				introStartBtn: "Start"
+				introStartBtn: "Start",
+				navLegend: "Legend"
 			},
 			desktopHTML: {
 				storymapsText: "A story map",
 				builderButton: "Switch to builder mode",
 				bitlyTooltip: "Get a short link to the application",
-				bitlyStartIndex: "Link to current place"
+				bitlyStartIndex: "Link to current place",
+				legendText: "Legend"
 			},
 			builderHTML: {
 				panelHeader: "APPLICATION CONFIGURATION",

@@ -40,13 +40,15 @@
 				navList: "Loend",
 				navMap: "Kaart",
 				navInfo: "Meedia",
-				introStartBtn: "Algus"
+				introStartBtn: "Algus",
+				navLegend: "Legend"
 			},
 			desktopHTML: {
 				storymapsText: "Kaardilugu",
 				builderButton: "Vaheta muutmise režiimile",
 				bitlyTooltip: "Tekita kiirlink rakendusele",
-				bitlyStartIndex: "Link hetke asukohale"
+				bitlyStartIndex: "Link hetke asukohale",
+				legendText: "Legend"
 			},
 			builderHTML: {
 				panelHeader: "RAKENDUSE KONFIGURATSIOON",

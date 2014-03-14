@@ -40,13 +40,15 @@
 				navList: "Luettelo",
 				navMap: "Kartta",
 				navInfo: "Media",
-				introStartBtn: "Aloitus"
+				introStartBtn: "Aloitus",
+				navLegend: "Selitteen"
 			},
 			desktopHTML: {
 				storymapsText: "Tarinakartta",
 				builderButton: "Vaihda muodostusohjelman tilaan",
 				bitlyTooltip: "Hanki lyhyt linkki sovellukseen",
-				bitlyStartIndex: "Linkki nykyiseen paikkaan"
+				bitlyStartIndex: "Linkki nykyiseen paikkaan",
+				navLegend: "Selitteen"
 			},
 			builderHTML: {
 				panelHeader: "SOVELLUKSEN MÄÄRITYS",

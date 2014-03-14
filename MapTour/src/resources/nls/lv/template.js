@@ -40,13 +40,15 @@
 				navList: "Saraksts",
 				navMap: "Karte",
 				navInfo: "Mediji",
-				introStartBtn: "Starts"
+				introStartBtn: "Starts",
+				navLegend: "Le\u0123enda"
 			},
 			desktopHTML: {
 				storymapsText: "Stāstu karte",
 				builderButton: "Pārslēgties uz veidotāja režīmu",
 				bitlyTooltip: "Iegūt īssaiti uz aplikāciju",
-				bitlyStartIndex: "Saite uz pašreizējo vietu"
+				bitlyStartIndex: "Saite uz pašreizējo vietu",
+				legendText: "Le\u0123enda"
 			},
 			builderHTML: {
 				panelHeader: "APLIKĀCIJAS KONFIGURĀCIJA",

@@ -40,13 +40,15 @@
 				navList: "Listă",
 				navMap: "Hartă",
 				navInfo: "Media",
-				introStartBtn: "Pornire"
+				introStartBtn: "Pornire",
+				navLegend: "legend\u0103"
 			},
 			desktopHTML: {
 				storymapsText: "O hartă informativă",
 				builderButton: "Comutare la modul builder",
 				bitlyTooltip: "Obţinere link scurt către aplicaţie",
-				bitlyStartIndex: "Link către locul curent"
+				bitlyStartIndex: "Link către locul curent",
+				legendText: "legend\u0103"
 			},
 			builderHTML: {
 				panelHeader: "CONFIGURARE APLICAŢIE",

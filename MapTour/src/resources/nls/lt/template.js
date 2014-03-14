@@ -40,13 +40,15 @@
 				navList: "Sąrašas",
 				navMap: "Žemėlapis",
 				navInfo: "Daugialypė informacija",
-				introStartBtn: "Pradėti"
+				introStartBtn: "Pradėti",
+				navLegend: "Legenda"
 			},
 			desktopHTML: {
 				storymapsText: "Pristatomasis žemėlapis",
 				builderButton: "Perjungti į kūrimo būseną",
 				bitlyTooltip: "Gauti sutrumpintą aplikacijos nuorodą",
-				bitlyStartIndex: "Nuoroda į esamą vietą"
+				bitlyStartIndex: "Nuoroda į esamą vietą",
+				legendText: "Legenda"
 			},
 			builderHTML: {
 				panelHeader: "APLIKACIJOS KONFIGŪRACIJA",

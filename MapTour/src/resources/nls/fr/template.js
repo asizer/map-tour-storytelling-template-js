@@ -40,13 +40,15 @@
 				navList: "Liste",
 				navMap: "Carte",
 				navInfo: "Elément multimédia",
-				introStartBtn: "Démarrer"
+				introStartBtn: "Démarrer",
+				navLegend: "l\u00e9gende"
 			},
 			desktopHTML: {
 				storymapsText: "Carte de narration",
 				builderButton: "Mode de générateur",
 				bitlyTooltip: "Obtenir un lien court vers l\'application",
-				bitlyStartIndex: "Relier au site actuel"
+				bitlyStartIndex: "Relier au site actuel",
+				legendText: "l\u00e9gende"
 			},
 			builderHTML: {
 				panelHeader: "CONFIGURATION DE L\’APPLICATION",

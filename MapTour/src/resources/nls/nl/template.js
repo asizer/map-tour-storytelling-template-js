@@ -40,13 +40,15 @@
 				navList: "Lijst",
 				navMap: "Kaart",
 				navInfo: "Media",
-				introStartBtn: "Start"
+				introStartBtn: "Start",
+				navLegend: "Legenda"
 			},
 			desktopHTML: {
 				storymapsText: "Een kaartverhaal",
 				builderButton: "Omschakelen naar buildermodus",
 				bitlyTooltip: "Een korte koppeling naar de applicatie maken",
-				bitlyStartIndex: "Koppeling naar huidige plaats"
+				bitlyStartIndex: "Koppeling naar huidige plaats",
+				legendText: "Legend"
 			},
 			builderHTML: {
 				panelHeader: "APPLICATIECONFIGURATIE",
